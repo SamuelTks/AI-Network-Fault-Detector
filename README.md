@@ -11,6 +11,8 @@
 
 </div>
 
+💡 **Note:** This repository has been moved to [NIKA](https://github.com/sands-lab/nika) under sands-lab. Please refer to the new repository for the latest updates.
+
 <h1 id="🤖overview">🤖 Overview</h1>
 
 ![alt text](./assets/images/NIKA_architecture.png)
@@ -19,7 +21,6 @@ NIKA (Network Incidents Benchmark for AI Agents) is a standardized, reproducible
 
 This is the code repository for the paper [Towards a Playground to Democratize Experimentation and Benchmarking of AI Agents for Network Troubleshooting](https://arxiv.org/abs/2507.01997), which was accepted at the [ACM SIGCOMM 2025 1st Workshop on Next-Generation Network Observability (NGNO)](https://conferences.sigcomm.org/sigcomm/2025/workshop/ngno/).
 
-💡 **Note:** We are actively developing NIKA. If you have any suggestions or are interested in contributing, feel free to reach out to us!
 
 ## Features
 
