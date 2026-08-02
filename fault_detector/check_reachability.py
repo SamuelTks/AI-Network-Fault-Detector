@@ -1,6 +1,6 @@
 import subprocess
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 hosts = {
@@ -44,9 +44,10 @@ for src in hosts:
 
 
 output = {
-    "timestamp": datetime.utcnow().isoformat(),
+    "timestamp": datetime.now(timezone.utc).isoformat(),
     "results": results
 }
 
 
 print(json.dumps(output, indent=2))
+
