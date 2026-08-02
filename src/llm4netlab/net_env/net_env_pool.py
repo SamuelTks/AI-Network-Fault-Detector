@@ -6,6 +6,7 @@ from llm4netlab.net_env.data_center_routing.dc_clos_bgp.lab_workers import DCClo
 from llm4netlab.net_env.intradomain_routing.ospf_enterprise.lab_dhcp import OSPFEnterpriseDHCP
 from llm4netlab.net_env.intradomain_routing.ospf_enterprise.lab_static import OSPFEnterpriseStatic
 from llm4netlab.net_env.intradomain_routing.rip_vpn.lab import RIPSmallInternetVPN
+from llm4netlab.net_env.interdomain_routing.simple_bgp.lab import SimpleBGP
 from llm4netlab.net_env.p4.p4_bloom_filter.lab import P4BloomFilter
 from llm4netlab.net_env.p4.p4_counter.lab import P4Counter
 from llm4netlab.net_env.p4.p4_int.lab import P4INT
@@ -19,6 +20,7 @@ _NET_ENVS: Dict[str, NetworkEnvBase] = {
     OSPFEnterpriseDHCP.LAB_NAME: OSPFEnterpriseDHCP,
     OSPFEnterpriseStatic.LAB_NAME: OSPFEnterpriseStatic,
     RIPSmallInternetVPN.LAB_NAME: RIPSmallInternetVPN,
+    SimpleBGP.LAB_NAME: SimpleBGP,
     SDNStar.LAB_NAME: SDNStar,
     SDNClos.LAB_NAME: SDNClos,
     P4BloomFilter.LAB_NAME: P4BloomFilter,

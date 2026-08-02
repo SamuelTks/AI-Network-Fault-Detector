@@ -9,7 +9,7 @@ load_dotenv()
 
 
 def load_model(backend_model: str = "gpt-oss:20b") -> BaseChatModel:
-    if backend_model in ["gpt-oss:20b", "qwen3:32b"]:
+    if backend_model in ["gpt-oss:20b", "qwen3:32b", "llama3.2:3b"]:
         llm = ChatOllama(
             model=backend_model,
             temperature=0,

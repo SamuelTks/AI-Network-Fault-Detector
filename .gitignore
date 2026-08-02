@@ -14,3 +14,8 @@ config/config.yaml
 /runtime/
 /.vscode/
 clean.sh
+
+# SSH keys
+.ssh/
+id_ed25519
+id_ed25519.pub
