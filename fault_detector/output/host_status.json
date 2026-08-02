@@ -1,0 +1,14 @@
+[
+  {
+    "host": "pc1",
+    "healthy": true,
+    "flags": []
+  },
+  {
+    "host": "pc2",
+    "healthy": false,
+    "flags": [
+      "missing_gateway"
+    ]
+  }
+]
